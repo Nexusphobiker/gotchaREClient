@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="gotchaREClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:gotchaREClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Black" Foreground="#FFFBFBFB">
+
+    <Grid>
+        <TextBlock x:Name="consoleTextBlock" Margin="10,10,0,0" Text="" TextWrapping="Wrap" FocusVisualSecondaryBrush="#997A7A7A" FocusVisualPrimaryBrush="Black" RenderTransformOrigin="0.5,0.5" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" Width="auto" Height="auto"/>
+    </Grid>
+</Page>
